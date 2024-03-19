@@ -1,0 +1,131 @@
+body {
+	background-image: url('../image/cov7.png');
+	padding-left: 150px;
+	margin-left: 800px;
+	margin-right: 80px;
+	margin-bottom: 100px;
+}
+
+.container {
+	width: 200px;
+	height: 500px;
+	padding: 150px;
+	margin-bottom: 100px;
+	background: -webkit-linear-gradient(rgba(0,80,181),rgba(0,163,225));	
+	box-shadow:2px 2px 18px rgba(0,0,0,0.3);
+	color: #5E97EC;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	border-radius: 50px;
+}
+
+.judul{
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	letter-spacing: -0.02em;
+	color: #5E97EC;
+}
+.judul2{
+	font-family: Trebuchet MS;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: -0.02em;
+	color: antiquewhite;
+}
+
+.textnama {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 33px;
+	color: whitesmoke;
+}
+.textuser {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 33px;
+	color: whitesmoke;
+	padding-top: 50px;
+}
+.textpass {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 33px;
+	color: ghostwhite;
+	padding-top: 50px;
+}
+.textjabatan {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 33px;
+	color: ghostwhite;
+	padding-top: 35px;
+}
+
+.inputannama {
+	position: absolute;
+    width: 310px;
+    height: 30px;
+    border: 0px;
+ 	border-bottom: 2px solid #E8E8E8;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.inputanusername {
+	position: absolute;
+    width: 310px;
+    height: 30px;
+    border: 0px;
+ 	border-bottom: 2px solid #E8E8E8;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+.inputanpassword {
+	position: absolute;
+    width: 310px;
+    height: 30px;
+    border: 0px;
+ 	border-bottom: 2px solid #E8E8E8;
+    font-style: normal;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.selectjabatan{
+	width: 310px;
+	height: 30px;
+	font-size: 12px;
+	border-radius: 50px;
+}
+.loginbutton{
+	width: 100px;
+	height: 30px;
+	background-color: #5E97EC;
+	border-radius: 12px;
+	border: 0px;
+	box-shadow:2px 2px 10px rgba(0,0,0,0.3);
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	font-size: 15px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.loginbutton:hover{
+	background-color: white;
+	color: #5E97EC;
+	font-weight: 400;
+	border: 1px solid #5E97EC;
+}
